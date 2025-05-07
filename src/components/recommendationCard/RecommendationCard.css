@@ -1,0 +1,60 @@
+.recommendation-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+  width: 30%;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-4px);
+}
+
+.rec-header-horizontal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rec-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.rec-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rec-name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.rec-role {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.9rem;
+}
+
+.rec-body {
+  margin-top: 0.5rem;
+}
+
+.rec-quote {
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 1380px) {
+}
+
+@media (max-width: 768px) {
+  .recommendation-card {
+    width: 100%;
+  }
+}
