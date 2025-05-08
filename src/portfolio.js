@@ -22,7 +22,7 @@ const greeting = {
   logo_name: "ThomasMason",
   nickname: "",
   subTitle:
-  '"I an experienced Head of Engineering with 15+ years in software engineering and 5+ years in management. I empower teams to build scalable, impactful products and solutions that drive business growth."',
+  '"I\'m an experienced and respected Head of Engineering with 15+ years in software engineering and 5+ years in management. I empower teams to build scalable, impactful products and solutions that drive business growth."',
     // '"I am a strategic technology leader with over 15 years of software engineering experience and more than 5 years leading high-performing teams. I combine deep technical expertise with a clear leadership approach to shape organisational growth. By aligning engineering with business goals and fostering a culture of collaboration and continuous improvement, I enable teams to thrive and deliver scalable, impactful solutions."',
   resumeLink: "https://github.com/thomasm789",
   // portfolio_repository: "https://github.com/thomasm789",
