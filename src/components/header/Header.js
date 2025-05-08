@@ -3,6 +3,7 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -110,8 +111,35 @@ class Header extends Component {
                   Message Me
                 </a>
               </li>
+              <li class="social-media-div" style={{ paddingTop: "10px" }}>
+                <a
+                  href="https://github.com/thomasm789"
+                  className="icon-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: "contents" }}
+                >
+                  <span name="Github" className="sc-aXZVg Plmtx">
+                    <i className="fab fa-github"></i>
+                  </span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/tmason-developer/"
+                  className="icon-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: "contents" }}
+                >
+                  <span name="LinkedIn" className="sc-aXZVg ibFhwL">
+                    <i className="fab fa-linkedin-in"></i>
+                  </span>
+                </a>
+              </li>
             </ul>
           </header>
+        </div>
+        <div style={{ display: "none"}}>
+          <SocialMedia/>
         </div>
       </Fade>
     );
