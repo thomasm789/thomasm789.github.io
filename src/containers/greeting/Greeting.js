@@ -42,7 +42,7 @@ export default function Greeting(props) {
               {/*    theme={theme}*/}
               {/*    className="portfolio-repo-btn"*/}
               {/*  />*/}
-                <Button text="Contact me with opportunities" theme={theme} className="portfolio-repo-btn" target="_blank" href="https://www.linkedin.com/messaging/thread/new/?recipient=tmason-developer" />
+                <Button text="Message Me" theme={theme} className="portfolio-repo-btn" target="_blank" href="https://www.linkedin.com/messaging/thread/new/?recipient=tmason-developer" />
               </div>
 
               {/* <div className="button-greeting-div">
@@ -50,6 +50,12 @@ export default function Greeting(props) {
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
               </div> */}
             </div>
+            <p
+                className="greeting-text-p subTitle"
+                style={{ color: theme.secondaryText, fontStyle: "italic" }}
+              >
+                My CV is available upon request.
+              </p>
           </div>
           <div className="greeting-image-div">
             {/* <img

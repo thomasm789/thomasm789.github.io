@@ -31,14 +31,14 @@ export default class Main extends Component {
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/experience"
+            path="/keyskills"
             exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
             )}
           />
           <Route
-            path="/community"
+            path="/communities"
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
             )}

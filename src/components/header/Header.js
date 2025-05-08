@@ -25,7 +25,7 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ float: 'left', color: theme.text }}> &lt;</span>
+              <span style={{ float: "left", color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
@@ -51,40 +51,28 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/experience"
+                  to="/keyskills"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Experience
+                  Key Skills
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/community"
+                  to="/communities"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Community
+                  Communities
                 </NavLink>
               </li>
-              {/*<li>*/}
-              {/*  <NavLink*/}
-              {/*    to="/projects"*/}
-              {/*    tag={Link}*/}
-              {/*    activeStyle={{ fontWeight: "bold" }}*/}
-              {/*    style={{ color: theme.text }}*/}
-              {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
-              {/*    onMouseOut={(event) => onMouseOut(event)}*/}
-              {/*  >*/}
-              {/*    Projects*/}
-              {/*  </NavLink>*/}
-              {/*</li>*/}
               <li>
                 <NavLink
                   to="/opensource"
@@ -97,17 +85,30 @@ class Header extends Component {
                   Open Source
                 </NavLink>
               </li>
+              {/*<li>*/}
+              {/*  <NavLink*/}
+              {/*    to="/cv"*/}
+              {/*    tag={Link}*/}
+              {/*    activeStyle={{ fontWeight: "bold" }}*/}
+              {/*    style={{ color: theme.text }}*/}
+              {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
+              {/*    onMouseOut={(event) => onMouseOut(event)}*/}
+              {/*  >*/}
+              {/*    CV*/}
+              {/*  </NavLink>*/}
+              {/*</li>*/}
               <li>
-                <NavLink
-                  to="/contact"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                <a
+                  href="https://www.linkedin.com/messaging/thread/new/?recipient=tmason-developer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: theme.text, fontWeight: "normal" }}
+                  onMouseEnter={(e) => onMouseEnter(e, theme.highlight)}
+                  onMouseOut={(e) => onMouseOut(e)}
+                  aria-label="Message me on LinkedIn"
                 >
-                  Contact Me
-                </NavLink>
+                  Message Me
+                </a>
               </li>
             </ul>
           </header>
@@ -116,4 +117,5 @@ class Header extends Component {
     );
   }
 }
+
 export default Header;
