@@ -3,8 +3,8 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import SeoHeader from "../seoHeader/SeoHeader";
+import SocialMedia from "../socialMedia/SocialMedia";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
