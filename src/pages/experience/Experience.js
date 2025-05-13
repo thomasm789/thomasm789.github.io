@@ -2,16 +2,10 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
-import Certifications from "../../containers/certifications/Certifications";
 import "./Experience.css";
-import { communities_conferences, experience, skills, work_experiences, technologies } from "../../portfolio.js";
-import Recommendations from "../../containers/recommendations/Recommendations";
-import { certifications } from "../../portfolio";
-import { recommendations } from "../../portfolio";
+import { experience, work_experiences, technologies } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
-import EducationImg from "../education/EducationImg";
 import Educations from "../../containers/education/Educations";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 
