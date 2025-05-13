@@ -1,8 +1,7 @@
 {
-  "private": true,
   "name": "tmason.uk",
   "version": "1.0.0",
-  "homepage": "https://tmason.uk",
+  "homepage": "tmason.uk",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",

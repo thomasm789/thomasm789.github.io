@@ -72,12 +72,12 @@ class Contact extends Component {
                 >
                   CV Available Upon Request
                 </p>
-                {/*<p*/}
-                {/*  className="contact-header-detail-text subTitle"*/}
-                {/*  style={{ color: theme.secondaryText }}*/}
-                {/*>*/}
-                {/*  contact(at)tmason.uk*/}
-                {/*</p>*/}
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  hello(at)tmason.uk
+                </p>
               </div>
               </div>
             </div>
