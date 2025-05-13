@@ -86,31 +86,31 @@ class Header extends Component {
                   Open Source
                 </NavLink>
               </li>
-              {/*<li>*/}
-              {/*  <NavLink*/}
-              {/*    to="/cv"*/}
-              {/*    tag={Link}*/}
-              {/*    activeStyle={{ fontWeight: "bold" }}*/}
-              {/*    style={{ color: theme.text }}*/}
-              {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
-              {/*    onMouseOut={(event) => onMouseOut(event)}*/}
-              {/*  >*/}
-              {/*    CV*/}
-              {/*  </NavLink>*/}
-              {/*</li>*/}
               <li>
-                <a
-                  href="https://www.linkedin.com/messaging/thread/new/?recipient=tmason-developer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: theme.text, fontWeight: "normal" }}
-                  onMouseEnter={(e) => onMouseEnter(e, theme.highlight)}
-                  onMouseOut={(e) => onMouseOut(e)}
-                  aria-label="Message me on LinkedIn"
+                <NavLink
+                  to="/contact"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Message Me
-                </a>
+                  Contact Me
+                </NavLink>
               </li>
+              {/*<li>*/}
+              {/*  <a*/}
+              {/*    href="https://www.linkedin.com/messaging/thread/new/?recipient=tmason-developer"*/}
+              {/*    target="_blank"*/}
+              {/*    rel="noopener noreferrer"*/}
+              {/*    style={{ color: theme.text, fontWeight: "normal" }}*/}
+              {/*    onMouseEnter={(e) => onMouseEnter(e, theme.highlight)}*/}
+              {/*    onMouseOut={(e) => onMouseOut(e)}*/}
+              {/*    aria-label="Message me on LinkedIn"*/}
+              {/*  >*/}
+              {/*    Message Me*/}
+              {/*  </a>*/}
+              {/*</li>*/}
               <li class="social-media-div" style={{ paddingTop: "10px" }}>
                 <a
                   href="https://github.com/thomasm789"
